@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="clock-card">
+      <h1>Digital Clock</h1>
+
+      <div id="clock" class="clock" aria-live="polite">00:00:00</div>
+
+      <div class="controls">
+        <label for="time">Time format</label>
+        <select name="time" id="time">
+          <option value="12">12 hour format</option>
+          <option value="24">24 hour format</option>
+        </select>
+      </div>
+    </main>
+  </body>
+</html>
