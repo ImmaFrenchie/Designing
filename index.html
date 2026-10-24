@@ -10,7 +10,14 @@
     <main class="clock-card">
       <h1>Digital Clock</h1>
 
-      <div id="clock" class="clock" aria-live="polite">00:00:00</div>
+      <div>
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+        <span id="ampm"></span>
+      </div>
 
       <div class="controls">
         <label for="time">Time format</label>
@@ -20,5 +27,6 @@
         </select>
       </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
